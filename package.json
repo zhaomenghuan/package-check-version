@@ -1,0 +1,28 @@
+{
+  "name": "package-check-version",
+  "version": "1.0.0",
+  "description": "A package for a npm package checks version, comparing with local package.json's version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaomenghuan/package-check-version.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "check-versin",
+    "versionCompare"
+  ],
+  "author": "zhaomenghuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaomenghuan/package-check-version/issues"
+  },
+  "homepage": "https://github.com/zhaomenghuan/package-check-version#readme",
+  "dependencies": {
+    "superagent": "^3.5.2"
+  }
+}
