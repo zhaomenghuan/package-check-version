@@ -2,7 +2,7 @@ const superagent = require('superagent')
 const versionCompare = require('./version-compare')
 
 module.exports = function (name, packageConfig) {
-  new Promise(function(resolve, reject) {
+  return new Promise(function(resolve, reject) {
     superagent
     .get(`https://registry.npmjs.org/${name}`)
     .end(function (err, res) {
