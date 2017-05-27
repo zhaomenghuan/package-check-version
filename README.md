@@ -17,8 +17,6 @@ packageCheckVersion(packageName, packageConfig).then(function(compareValue){
 })
 ```
 
-A promise Object.
-
 **params:**
 - packageName: package'name, such as 'plus-cli';
 - packageConfig: local package's config file, such as `require('package.json')`

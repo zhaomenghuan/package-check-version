@@ -1,6 +1,6 @@
 {
   "name": "package-check-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for a npm package checks version, comparing with local package.json's version.",
   "main": "index.js",
   "scripts": {
